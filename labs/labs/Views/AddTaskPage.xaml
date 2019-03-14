@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="labs.Views.AddTaskPage">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition Width=".5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Task Name"                                             Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Editor Text="{Binding TaskTitle}"                                  Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Label Text="Description"                                           Grid.Row="2" Grid.ColumnSpan="2"/>
+        <ScrollView                                                         Grid.Row="3" Grid.ColumnSpan="2">                                             
+            <Entry Text="{Binding TaskDescription}"                         Grid.Row="3" Grid.ColumnSpan="2"/>
+        </ScrollView>
+        <Button Text="Add Task" Command="{Binding AddTaskButtonCommand}"    Grid.Row="4" Grid.Column="0"/>
+        <Button Text="Cancel" Command="{Binding CancelButtonCommand}"       Grid.Row="4" Grid.Column="1"/>
+
+    </Grid>
+  
+</ContentPage>

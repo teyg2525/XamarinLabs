@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             x:Class="labs.Views.Lab2ListPage"
+             xmlns:controls="clr-namespace:labs.Controls"
+             Title="Lab 2 project">
+  
+    <StackLayout>
+        <controls:CustomListView ItemsSource="{Binding TaskList}" ItemTappedCommand="{Binding ItemTappedCommand}" SelectionMode="None">
+            <controls:CustomListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding Title}" FontSize="Large" HorizontalOptions="Center"/>
+                    </ViewCell>
+                </DataTemplate>
+            </controls:CustomListView.ItemTemplate>
+        </controls:CustomListView>
+        <Button Text="Add task" Command="{Binding AddTaskCommand}"/>
+    </StackLayout>
+</ContentPage>

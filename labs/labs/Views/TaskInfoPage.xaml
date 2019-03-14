@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="labs.Views.TaskInfoPage">
+    <ScrollView>
+        <Grid>                                                                                                                
+        <Grid.RowDefinitions>                                                                                             
+                                                                                                                          
+        </Grid.RowDefinitions>                                                                                            
+        <Grid.ColumnDefinitions>                                                                                          
+                                                                                                                          
+        </Grid.ColumnDefinitions>
+        <Label Text="{Binding TaskTitle}" 
+               FontSize="Large" HorizontalTextAlignment="Center"            Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Label Text="Description" FontSize="Medium"                         Grid.Row="1" Grid.ColumnSpan="3"/>
+        <ScrollView                                                         Grid.Row="2" Grid.ColumnSpan="3">
+            <Editor Text="{Binding TaskDescription}"                        Grid.Row="2" Grid.ColumnSpan="3"/>
+        </ScrollView>
+        <Label Text="Created"                                               Grid.Row="3" Grid.Column="0"/>
+        <Label Text="Finished"                                              Grid.Row="3" Grid.Column="2"/>
+        <Label Text="{Binding TaskStartingDate}"                            Grid.Row="4" Grid.Column="0"/>
+        <DatePicker Date="{Binding TaskFinishingDate}" Format="dd.MMM.yy"
+                    MaximumDate="{Binding Today}"                           Grid.Row="4" Grid.Column="2"/>
+        <Label Text="Mark"                                                  Grid.Row="5" Grid.Column="0"/>
+        <Label Text="{Binding TaskMark}"                                    Grid.Row="5" Grid.Column="1"/>
+        <Slider Value="{Binding TaskMark}" Maximum="10"                     Grid.Row="6" Grid.ColumnSpan="3"/>
+        <Button Text="Edit" Command="{Binding EditButtonCommand}"           Grid.Row="7" Grid.Column="0"/>
+        <Button Text="Delete" Command="{Binding DeleteButtonCommand}"       Grid.Row="7" Grid.Column="1"/>
+        <Button Text="Cancel" Command="{Binding CancelButtonCommand}"       Grid.Row="7" Grid.Column="2"/>
+    </Grid>
+    </ScrollView>
+</ContentPage>

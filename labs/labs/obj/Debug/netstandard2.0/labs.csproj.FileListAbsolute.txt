@@ -1,0 +1,17 @@
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\bin\Debug\netstandard2.0\labs.deps.json
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\bin\Debug\netstandard2.0\labs.dll
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.csprojAssemblyReference.cache
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\Lab2ListPage.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\ResultPage.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\RootTabbedPage.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.csproj.CoreCompileInputs.cache
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.AssemblyInfoInputs.cache
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.AssemblyInfo.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.dll
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\labs.pdb
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\bin\Debug\netstandard2.0\labs.pdb
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\AddTaskPage.xaml.g.cs
+D:\Labs\3 курс\2 семестр\Xamarin\labs\labs\labs\obj\Debug\netstandard2.0\Views\TaskInfoPage.xaml.g.cs
