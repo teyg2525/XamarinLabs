@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:labs.Controls"
+             x:Class="labs.Views.LibraryVideoPage">
+
+    <StackLayout>
+        <controls:VideoPlayer Source="{Binding VideoPlayerSource}"
+                           VerticalOptions="FillAndExpand" />
+
+        <Button Text="Show Video Library"
+                Margin="10"
+                HorizontalOptions="Center"
+                IsEnabled="{Binding ButtonIsEnabled}"
+                Command="ShowVideoLibraryCommand" />
+    </StackLayout>
+
+</ContentPage>

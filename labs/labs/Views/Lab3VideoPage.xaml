@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="labs.Views.Lab3VideoPage"
+             Title="Lab 3">
+    
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                
+                <TextCell Text="Play Web Video"
+                          Detail="Play a video by specifying a URL"
+                          Command="{Binding PlayWebVideoCommand}" />
+
+                <TextCell Text="Select Web Video" 
+                          Detail="Select a video from a ListView"
+                          Command="{Binding SelectWebVideoCommand}" />
+
+                <TextCell Text="Bind to VideoPlayer"
+                          Detail="Select a video with a ListView binding"
+                          Command="{Binding BindToVideoPlayerCommand}" />
+
+                <TextCell Text="Play Video Resource"
+                          Detail="Play a video saved as a resource"
+                          Command="{Binding PlayVideoResourceCommand}" />
+
+                <TextCell Text="Play Library Video"
+                          Detail="Play a video from the photos and videos library"
+                          Command="{Binding PlayLibraryVideoCommand}" />
+
+                <TextCell Text="Custom Transport"
+                          Detail="Play a video with custom Play and Pause buttons"
+                          Command="{Binding CustomTransportCommand}" />
+
+                <TextCell Text="Custom Position Bar"
+                          Detail="Play a video with a custom position bar"
+                          Command="{Binding CustomPositionBarCommand}" />
+                
+            </TableSection>
+        </TableRoot>
+    </TableView>
+
+</ContentPage>

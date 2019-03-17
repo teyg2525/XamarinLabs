@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="labs.Views.UriVideoPage"
+             xmlns:controls ="clr-namespace:labs.Controls"
+             Title="Video From Web">
+
+    <controls:VideoPlayer Source="https://ia601405.us.archive.org/27/items/MarvelStudiosAvengersOfficialTrailer_201903/Marvel%20Studios%27%20Avengers%20-%20Official%20Trailer.mp4" />
+</ContentPage>
