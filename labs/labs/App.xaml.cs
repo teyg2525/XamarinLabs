@@ -35,6 +35,9 @@ namespace labs
             containerRegistry.RegisterForNavigation<Lab2ListPage, Lab2ListPageViewModel>();
             containerRegistry.RegisterForNavigation<AddTaskPage, AddTaskPageViewModel>();
             containerRegistry.RegisterForNavigation<TaskInfoPage, TaskInfoPageViewModel>();
+            containerRegistry.RegisterForNavigation<Lab3VideoPage, Lab3VideoPageViewModel>();
+            containerRegistry.RegisterForNavigation<LibraryVideoPage, LibraryVideoPageViewModel>();
+            containerRegistry.RegisterForNavigation<UriVideoPage, UriVideoPageViewModel>();
         }
     }
 }
