@@ -12,7 +12,8 @@ using Prism.Navigation;
 namespace labs.ViewModels
 {
 	public class AddTaskPageViewModel : ViewModelBase
-	{
+	{ 
+        //dfff
         IPageDialogService _pageDialog;
         ITaskModelRepository _taskModelTable;
 
